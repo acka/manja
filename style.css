@@ -1,0 +1,120 @@
+
+body {
+	text-align:center;
+	color:#000000;
+	margin-top: 2em;
+}
+
+#wrap {
+	width:78em;
+	text-align:left;
+	margin:0 auto;
+}
+
+.fl{ float:left}
+.fr{ float:right}
+.clearfix{ clear:both}
+
+/* stara crvena: #ea0500  */
+
+/* header */
+header {
+	position:relative;
+	padding-bottom: 3em;
+	padding-top: 1em;
+	padding-left: 20em;
+	background-image: url('images/zeka-levo.jpg');
+	background-repeat: no-repeat;
+	background-position: 0% 30%;
+	height: 10em;
+}
+
+#logo {
+	background-image: url('images/zeka-desno.jpg');
+ 	padding-right: 20em;
+	padding-top: 2em;
+	height: 10em;
+	background-repeat: no-repeat;
+	background-position: 98% 0%;
+}
+#logo h1 {
+	font-size:5em;
+	color:#000000;
+	line-height: 1em;
+	text-align: center;
+}
+#logo div {
+	padding-left: 8em;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #e1771e;
+}
+
+header nav ul{
+	font-size: 1.1em;
+	margin: 0;
+	margin-top: -3em;
+	padding:0;
+}
+
+header nav ul li {
+	list-style:none;
+	float:left;
+	font-weight:700;
+	padding: 0 1em;
+}
+
+header nav a {text-decoration:none; display:block; text-align:center; color: #e1771e;}
+
+/* content */
+#content {
+    margin-top:1.5em;
+}
+
+a {
+	color: #e1771e;
+}
+
+.main {
+	display: inline;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding:1.5em;
+	width: 40em;
+	padding-bottom: 15em;
+	background-image: url(images/zecica.jpg);
+	background-repeat: no-repeat;
+	background-position: 110% 100%;
+}
+
+.main img {float:left;}
+
+.text h2 {font-size:x-large; padding-bottom:1em; margin: 0;}
+
+.side {
+	width:20em;
+	display: inline;
+}
+.side h2 {font-size:1.5em}
+.sideinner img{margin:35px  0 30px 65px;}
+.sideinner h3 a{
+	font-size:2em;
+	margin:0 0 0 2em;
+}
+/* footer */
+footer {}
+footer nav ul{
+	font-size: 0.8em;
+	margin: 0;
+	padding:0;
+}
+
+footer nav ul li {
+	list-style:none;
+	float:left;
+	font-weight:400;
+	padding: 0 1em;
+}
+
+footer nav a {text-decoration:none; display:block; text-align:center; color: #e1771e;}
