@@ -1,7 +1,7 @@
 
 body {
 	text-align:center;
-	color:#000000;
+	color:#333;
 	margin-top: 2em;
 }
 
@@ -81,14 +81,10 @@ a {
 	display: inline;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	padding:1.5em;
-	width: 40em;
-	padding-bottom: 15em;
-	background-image: url(images/zecica.jpg);
-	background-repeat: no-repeat;
-	background-position: 110% 100%;
+	width: 20em;
 }
 
-.main img {float:left;}
+.main img {}
 
 .text h2 {font-size:x-large; padding-bottom:1em; margin: 0;}
 
@@ -103,7 +99,14 @@ a {
 	margin:0 0 0 2em;
 }
 /* footer */
-footer {}
+footer {
+	height: 7em;
+	padding-top: 2em;
+	background-position: 98% 98%;
+	background-repeat: no-repeat;
+	border-top: 1px solid #333;
+}
+
 footer nav ul{
 	font-size: 0.8em;
 	margin: 0;
@@ -118,3 +121,26 @@ footer nav ul li {
 }
 
 footer nav a {text-decoration:none; display:block; text-align:center; color: #e1771e;}
+
+.ft_01 {background-image: url('images/footer/aha.jpg')}
+.ft_02 {background-image: url('images/footer/hekleraj.jpg'); background-position: 98% 98%}
+.ft_03 {background-image: url('images/footer/lalala.jpg'); background-position: 98% 98%}
+.ft_04 {background-image: url('images/footer/stigla jesen.jpg'); background-position: 98% 98%}
+.ft_05 {background-image: url('images/footer/almost jesen.jpg'); background-position: 98% 98%}
+.ft_06 {background-image: url('images/footer/Hi hi hi mala.jpg'); background-position: 98% 98%}
+.ft_07 {background-image: url('images/footer/nesto.jpg'); background-position: 98% 98%}
+.ft_08 {background-image: url('images/footer/zecica mala.jpg'); background-position: 98% 98%}
+.ft_09 {background-image: url('images/footer/cao.jpg'); background-position: 98% 98%}
+.ft_10 {background-image: url('images/footer/kafica.jpg'); background-position: 98% 98%}
+.ft_11 {background-image: url('images/footer/ring.jpg'); background-position: 98% 98%}
+.ft_12 {background-image: url('images/footer/cvidze.jpg'); background-position: 98% 98%}
+.ft_13 {background-image: url('images/footer/klupica.jpg'); background-position: 98% 98%}
+.ft_14 {background-image: url('images/footer/romantika.jpg'); background-position: 98% 98%}
+
+/* 
+ * aha.jpg           hekleraj.jpg       lalala.jpg     stigla jesen.jpg
+almost jesen.jpg  Hi hi hi mala.jpg  nesto.jpg      zecica mala.jpg
+cao.jpg           kafica.jpg         ring.jpg
+cvidze.jpg        klupica.jpg        romantika.jpg
+
+ * */
