@@ -100,7 +100,7 @@ a {
 }
 /* footer */
 footer {
-	height: 7em;
+	height: 110px;
 	padding-top: 2em;
 	background-position: 98% 98%;
 	background-repeat: no-repeat;
@@ -129,13 +129,24 @@ footer nav a {text-decoration:none; display:block; text-align:center; color: #e1
 .ft_05 {background-image: url('images/footer/almost jesen.jpg'); background-position: 98% 98%}
 .ft_06 {background-image: url('images/footer/Hi hi hi mala.jpg'); background-position: 98% 98%}
 .ft_07 {background-image: url('images/footer/nesto.jpg'); background-position: 98% 98%}
-.ft_08 {background-image: url('images/footer/zecica mala.jpg'); background-position: 98% 98%}
+.ft_08 {background-image: url('images/footer/hello.jpg'); background-position: 98% 98%}
 .ft_09 {background-image: url('images/footer/cao.jpg'); background-position: 98% 98%}
 .ft_10 {background-image: url('images/footer/kafica.jpg'); background-position: 98% 98%}
 .ft_11 {background-image: url('images/footer/ring.jpg'); background-position: 98% 98%}
 .ft_12 {background-image: url('images/footer/cvidze.jpg'); background-position: 98% 98%}
 .ft_13 {background-image: url('images/footer/klupica.jpg'); background-position: 98% 98%}
 .ft_14 {background-image: url('images/footer/romantika.jpg'); background-position: 98% 98%}
+.ft_15 {background-image: url('images/footer/dobar dan.jpg'); background-position: 98% 98%}
+.ft_16 {background-image: url('images/footer/lepo je.jpg'); background-position: 98% 98%}
+.ft_17 {background-image: url('images/footer/ljub.jpg'); background-position: 98% 98%}
+.ft_18 {background-image: url('images/footer/message mala.jpg'); background-position: 98% 98%}
+.ft_19 {background-image: url('images/footer/njama.jpg'); background-position: 98% 98%}
+.ft_20 {background-image: url('images/footer/oblak.jpg'); background-position: 98% 98%}
+.ft_21 {background-image: url('images/footer/skrivanje.jpg'); background-position: 98% 98%}
+.ft_22 {background-image: url('images/footer/zdravo.jpg'); background-position: 98% 98%}
+.ft_23 {background-image: url('images/footer/Arty farty.jpg'); background-position: 98% 98%}
+.ft_24 {background-image: url('images/footer/1.jpg'); background-position: 98% 98%}
+
 
 /* 
  * aha.jpg           hekleraj.jpg       lalala.jpg     stigla jesen.jpg
