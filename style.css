@@ -98,6 +98,20 @@ a {
 	font-size:2em;
 	margin:0 0 0 2em;
 }
+
+.gallery div.fl {
+	width: 210px;
+	border: 1px solid #333;
+	margin: 5px;
+	
+	padding: 5px;
+}
+
+.gallery img {
+	display: block;
+	margin: auto;
+}
+
 /* footer */
 footer {
 	height: 110px;
