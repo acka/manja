@@ -1,14 +1,14 @@
 
 body {
-	text-align:center;
 	color:#333;
-	margin-top: 2em;
+	font-family: "DejaVu Sans", Verdana, Arial, Helvetica, sans-serif;
 }
 
 #wrap {
 	width:78em;
 	text-align:left;
 	margin:0 auto;
+	position: relative;
 }
 
 .fl{ float:left}
@@ -16,87 +16,133 @@ body {
 .clearfix{ clear:both}
 
 /* stara crvena: #ea0500  */
+/* narandzasta: #e1771e */
 
 /* header */
 header {
-	position:relative;
-	padding-bottom: 3em;
-	padding-top: 1em;
-	padding-left: 20em;
-	background-image: url('images/zeka-levo.jpg');
-	background-repeat: no-repeat;
-	background-position: 0% 30%;
-	height: 10em;
+	position: relative;
+	height: 14em;
 }
 
 #logo {
-	background-image: url('images/zeka-desno.jpg');
- 	padding-right: 20em;
-	padding-top: 2em;
-	height: 10em;
+	position: relative;
+	background-image: url('images/zeka-levo.jpg');
 	background-repeat: no-repeat;
-	background-position: 98% 0%;
+	background-position: 8% 40%;
+	padding-left: 25%;
+
+	height: 11.5em;
+	
 }
 #logo h1 {
+	position: relative;
+	background-image: url('images/zeka-desno.jpg');
+	background-repeat: no-repeat;
+	background-position: 85% 0%;
 	font-size:5em;
-	color:#000000;
-	line-height: 1em;
+	
+ 	padding-right: 33%;
+ 	padding-top: 1.2em;
+ 	height: 1.3em;
+
 	text-align: center;
-}
-#logo div {
-	padding-left: 8em;
 }
 
 #logo a {
 	text-decoration: none;
-	color: #e1771e;
+	text-transform: lowercase;
+	color: #ea0500;
+}
+
+header nav {
+	/*border-top: 1px dotted #333;*/
+	border-bottom: 2px solid #ccc;
 }
 
 header nav ul{
+	/*border-bottom: 1px solid #666;*/
 	font-size: 1.1em;
-	margin: 0;
-	margin-top: -3em;
+	height: 2em;
+	margin: 0 auto;
 	padding:0;
+	padding-bottom: 0.5em;
+	width: 54em;
 }
 
 header nav ul li {
 	list-style:none;
 	float:left;
 	font-weight:700;
-	padding: 0 1em;
+	line-height: 200%;
 }
 
-header nav a {text-decoration:none; display:block; text-align:center; color: #e1771e;}
+header nav a {
+	text-decoration:none;
+	text-align: center;
+	display:block;
+	color: #ea0500;
+	width: 9em;
+	text-transform: uppercase;
+}
+header nav a:hover { color: #fff; background-color: #ea0500;}
 
 /* content */
 #content {
     margin-top:1.5em;
+    position: relative;
 }
 
 a {
-	color: #e1771e;
+	color: #ea0500;
+}
+
+.intro{
+	position: relative;
+}
+
+.intro img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	
+}
+
+.intro div {
+	background-color: #FF9D00;
+	/*border: 1px solid #007808;*/
+	padding: 1em;
+	margin-left: 220px;
+}
+
+.side p {
+	color: #fff;
+	font-weight: 500;
+	margin: 0.5em;
+}
+
+.side .text {
+	background-color: #FF9D00;
+	padding: 1.5em 0.5em 1.5em 1em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	border-right: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+}
+
+.side img {
+	margin-bottom: 1em;
 }
 
 .main {
-	display: inline;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	padding:1.5em;
-	width: 20em;
+	float: right;
+	width: 58em;
 }
-
-.main img {}
-
-.text h2 {font-size:x-large; padding-bottom:1em; margin: 0;}
 
 .side {
-	width:20em;
-	display: inline;
-}
-.side h2 {font-size:1.5em}
-.sideinner img{margin:35px  0 30px 65px;}
-.sideinner h3 a{
-	font-size:2em;
-	margin:0 0 0 2em;
+	float:right;
+	width: 20em;
 }
 
 .gallery div.fl {
@@ -111,20 +157,48 @@ a {
 	display: block;
 	margin: auto;
 }
+#albumlist {
+list-style-type: none;
+width:600px;
+}
+
+#albumlist li {
+float: left;
+margin-right: 6px;
+margin-bottom: 10px;
+font: bold 0.9em Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+color: #ea0500;
+padding-top:2em;
+}
+
+#albumlist img {
+display: block;
+border: 1px solid #333300;
+}
+
+
 
 /* footer */
 footer {
-	height: 110px;
-	padding-top: 2em;
-	background-position: 98% 98%;
+	height: 100px;
+	background-position: 92% 0%;
 	background-repeat: no-repeat;
-	border-top: 1px solid #333;
+	margin-top: 1em;
+}
+
+footer nav {
+	padding-top: 5em;
 }
 
 footer nav ul{
-	font-size: 0.8em;
+	float: left;
+	font-size: 0.9em;
 	margin: 0;
-	padding:0;
+	margin-right: 150px;
+	border-top: 1px dotted #666;
+	width: 73%;
+	padding-top: 1em;
 }
 
 footer nav ul li {
@@ -134,38 +208,4 @@ footer nav ul li {
 	padding: 0 1em;
 }
 
-footer nav a {text-decoration:none; display:block; text-align:center; color: #e1771e;}
-
-.ft_01 {background-image: url('images/footer/aha.jpg')}
-.ft_02 {background-image: url('images/footer/hekleraj.jpg'); background-position: 98% 98%}
-.ft_03 {background-image: url('images/footer/lalala.jpg'); background-position: 98% 98%}
-.ft_04 {background-image: url('images/footer/stigla jesen.jpg'); background-position: 98% 98%}
-.ft_05 {background-image: url('images/footer/almost jesen.jpg'); background-position: 98% 98%}
-.ft_06 {background-image: url('images/footer/Hi hi hi mala.jpg'); background-position: 98% 98%}
-.ft_07 {background-image: url('images/footer/nesto.jpg'); background-position: 98% 98%}
-.ft_08 {background-image: url('images/footer/hello.jpg'); background-position: 98% 98%}
-.ft_09 {background-image: url('images/footer/cao.jpg'); background-position: 98% 98%}
-.ft_10 {background-image: url('images/footer/kafica.jpg'); background-position: 98% 98%}
-.ft_11 {background-image: url('images/footer/ring.jpg'); background-position: 98% 98%}
-.ft_12 {background-image: url('images/footer/cvidze.jpg'); background-position: 98% 98%}
-.ft_13 {background-image: url('images/footer/klupica.jpg'); background-position: 98% 98%}
-.ft_14 {background-image: url('images/footer/romantika.jpg'); background-position: 98% 98%}
-.ft_15 {background-image: url('images/footer/dobar dan.jpg'); background-position: 98% 98%}
-.ft_16 {background-image: url('images/footer/lepo je.jpg'); background-position: 98% 98%}
-.ft_17 {background-image: url('images/footer/ljub.jpg'); background-position: 98% 98%}
-.ft_18 {background-image: url('images/footer/message mala.jpg'); background-position: 98% 98%}
-.ft_19 {background-image: url('images/footer/njama.jpg'); background-position: 98% 98%}
-.ft_20 {background-image: url('images/footer/oblak.jpg'); background-position: 98% 98%}
-.ft_21 {background-image: url('images/footer/skrivanje.jpg'); background-position: 98% 98%}
-.ft_22 {background-image: url('images/footer/zdravo.jpg'); background-position: 98% 98%}
-.ft_23 {background-image: url('images/footer/Arty farty.jpg'); background-position: 98% 98%}
-.ft_24 {background-image: url('images/footer/1.jpg'); background-position: 98% 98%}
-
-
-/* 
- * aha.jpg           hekleraj.jpg       lalala.jpg     stigla jesen.jpg
-almost jesen.jpg  Hi hi hi mala.jpg  nesto.jpg      zecica mala.jpg
-cao.jpg           kafica.jpg         ring.jpg
-cvidze.jpg        klupica.jpg        romantika.jpg
-
- * */
+footer nav a {text-decoration:none; display:block; text-align:center; color: #FF9D00;}
