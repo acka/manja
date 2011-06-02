@@ -1,4 +1,4 @@
 
 auto: true
 server: true
-base-url: /manja/
+base-url: '/manja'
