@@ -147,7 +147,8 @@ a {
 
 .gallery div.fl {
 	width: 210px;
-	border: 1px solid #333;
+	
+	border: 2px solid #ccc;
 	margin: 5px;
 	
 	padding: 5px;
