@@ -1,0 +1,212 @@
+
+body {
+	color:#333;
+	font-family: "DejaVu Sans", Verdana, Arial, Helvetica, sans-serif;
+}
+
+#wrap {
+	width:78em;
+	text-align:left;
+	margin:0 auto;
+	position: relative;
+}
+
+.fl{ float:left}
+.fr{ float:right}
+.clearfix{ clear:both}
+
+/* stara crvena: #ea0500  */
+/* narandzasta: #e1771e */
+
+/* header */
+header {
+	position: relative;
+	height: 14em;
+}
+
+#logo {
+	position: relative;
+	background-image: url('../images/zeka-levo.jpg');
+	background-repeat: no-repeat;
+	background-position: 8% 40%;
+	padding-left: 25%;
+
+	height: 11.5em;
+	
+}
+#logo h1 {
+	position: relative;
+	background-image: url('../images/zeka-desno.jpg');
+	background-repeat: no-repeat;
+	background-position: 85% 0%;
+	font-size:5em;
+	
+ 	padding-right: 33%;
+ 	padding-top: 1.2em;
+ 	height: 1.3em;
+
+	text-align: center;
+}
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	color: #ea0500;
+}
+
+header nav {
+	/*border-top: 1px dotted #333;*/
+	border-bottom: 2px solid #ccc;
+}
+
+header nav ul{
+	/*border-bottom: 1px solid #666;*/
+	font-size: 1.1em;
+	height: 2em;
+	margin: 0 auto;
+	padding:0;
+	padding-bottom: 0.5em;
+	width: 54em;
+}
+
+header nav ul li {
+	list-style:none;
+	float:left;
+	font-weight:700;
+	line-height: 200%;
+}
+
+header nav a {
+	text-decoration:none;
+	text-align: center;
+	display:block;
+	color: #ea0500;
+	width: 9em;
+	text-transform: uppercase;
+}
+header nav a:hover { color: #fff; background-color: #ea0500;}
+
+/* content */
+#content {
+    margin-top:1.5em;
+    position: relative;
+}
+
+a {
+	color: #ea0500;
+}
+
+.intro{
+	position: relative;
+}
+
+.intro img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	
+}
+
+.intro div {
+	background-color: #FF9D00;
+	/*border: 1px solid #007808;*/
+	padding: 1em;
+	margin-left: 220px;
+}
+
+.side p {
+	color: #fff;
+	font-weight: 500;
+	margin: 0.5em;
+}
+
+.side .text {
+	background-color: #FF9D00;
+	padding: 1.5em 0.5em 1.5em 1em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	border-right: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+}
+
+.side img {
+	margin-bottom: 1em;
+}
+
+.main {
+	float: right;
+	width: 58em;
+}
+
+.side {
+	float:right;
+	width: 20em;
+}
+
+.gallery div.fl {
+	width: 210px;
+	
+	border: 2px solid #ccc;
+	margin: 5px;
+	
+	padding: 5px;
+}
+
+.gallery img {
+	display: block;
+	margin: auto;
+}
+#albumlist {
+list-style-type: none;
+width:600px;
+}
+
+#albumlist li {
+float: left;
+margin-right: 6px;
+margin-bottom: 10px;
+font: bold 0.9em Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+color: #ea0500;
+padding-top:2em;
+}
+
+#albumlist img {
+display: block;
+border: 1px solid #333300;
+}
+
+
+
+/* footer */
+footer {
+	height: 100px;
+	background-position: 92% 0%;
+	background-repeat: no-repeat;
+	margin-top: 1em;
+}
+
+footer nav {
+	padding-top: 5em;
+}
+
+footer nav ul{
+	float: left;
+	font-size: 0.9em;
+	margin: 0;
+	margin-right: 150px;
+	border-top: 1px dotted #666;
+	width: 73%;
+	padding-top: 1em;
+}
+
+footer nav ul li {
+	list-style:none;
+	float:left;
+	font-weight:400;
+	padding: 0 1em;
+}
+
+footer nav a {text-decoration:none; display:block; text-align:center; color: #FF9D00;}
