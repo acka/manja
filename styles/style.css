@@ -25,12 +25,12 @@ header {
 }
 
 #logo {
+	
 	position: relative;
 	background-image: url('../images/zeka-levo.jpg');
 	background-repeat: no-repeat;
 	background-position: 8% 40%;
 	padding-left: 25%;
-
 	height: 11.5em;
 	
 }
@@ -40,6 +40,8 @@ header {
 	background-repeat: no-repeat;
 	background-position: 85% 0%;
 	font-size:5em;
+	font-family: 'Caudex', serif;
+	
 	
  	padding-right: 33%;
  	padding-top: 1.2em;
@@ -61,6 +63,7 @@ header nav {
 
 header nav ul{
 	/*border-bottom: 1px solid #666;*/
+	font-family: 'Caudex', serif;
 	font-size: 1.1em;
 	height: 2em;
 	margin: 0 auto;
